@@ -47,6 +47,8 @@ require_once 'calc.php';
 <br>
 <? print_r($GLOBALS);?>
 
+
+
 </div>
 </body>
 </html>
