@@ -15,18 +15,18 @@ require_once 'calc.php';
 			<div class="col-1">
 				
 					<select name="currency_from" size="1" >
-					    <option selected value="rouble">Рубль</option>
-					    <option value="dollar">Доллар</option>
-					    <option value="funt">Фунт</option>
+					    <option selected value="BTC">BTC</option>
+					    <option value="ETH">ETH</option>
+					    <option value="USD">USD</option>
 					 </select>
 			
 			</div>
 			<div class="col-1">
 				
 					<select name="currency_to" size="1" >
-					    <option selected value="rouble">Рубль</option>
-					    <option value="dollar">Доллар</option>
-					    <option value="funt">Фунт</option>
+					    <option selected value="BTC">BTC</option>
+					    <option value="ETH">ETH</option>
+					    <option value="USD">USD</option>
 					</select>
 			
 			</div>
@@ -46,6 +46,8 @@ require_once 'calc.php';
 <?= $result?>
 <br>
 <? print_r($GLOBALS);?>
+<br>
+<?= html?>
 
 
 
